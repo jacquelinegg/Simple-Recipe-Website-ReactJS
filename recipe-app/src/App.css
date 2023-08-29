@@ -1,0 +1,224 @@
+:root {
+  --primary-color: #fffaf7;
+  --primary-color-gradient: #ffffff;
+  --secondary-color: rgb(189, 109, 109);
+  --accent-color: rgb(255, 220, 156);
+  --dark-color: rgb(0, 0, 0);
+  --light-color: #ffffff;
+  --hover-color: rgb(192, 136, 38);
+}
+
+body {
+  background: linear-gradient(to bottom, #fffcfa, #edffef);
+  height: 1200px;
+  /* Adjust the color values as needed */
+}
+
+body::-webkit-scrollbar {
+  width: 8px; 
+}
+
+
+body::-webkit-scrollbar-thumb {
+  background-color: olive;
+  border-radius: 4px; 
+}
+
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: var(--secondary-color); 
+}
+
+
+body::-webkit-scrollbar-track {
+  background-color: none;
+}
+
+/* .App {
+  display: flex;
+  flex-direction: row;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.navbar-link {
+  padding: 10px 10px;
+  font-size: 65%;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 1.2%;
+  margin-left: 0;
+  margin-right: 0;
+  position: static;
+  
+}
+
+.navbar {
+
+  top: 0;
+  left: 0;
+  height: 75px;
+  width: 100%;
+  justify-content: left;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  position: fixed;
+  border-bottom: 1.7px solid var(--accent-color);
+  background: linear-gradient(to top, var(--primary-color), var(--primary-color-gradient));
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+}
+
+.navbar .left {
+  justify-content: left;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  width: 81%;
+}
+
+.navbar .right {
+  margin-top: -10px;
+  display: flex;
+}
+
+.newsletter {
+  padding: 10px 20px 10px 20px;
+  background-color: var(--accent-color);
+  border: none;
+  font-weight: bold;
+  color: var(--dark-color);
+  height: 56%;
+  margin-top: 26px;
+  border-radius: 7px;
+}
+
+.newsletter:hover {
+  background-color: var(--hover-color);
+  color: var(--primary-color);
+}
+
+.icons {
+  background-color: transparent;
+  font-size: 1.3em;
+  border: none;
+  margin-left: 0.4em;
+  color: olive;
+  margin-top: 13.6px;
+  cursor: pointer;
+  position: static;
+}
+
+.icons-love {
+  color: var(--secondary-color);
+  font-size: 1.8em;
+  border: none;
+  margin-left: 0.4em;
+  background-color: transparent;
+  margin-top: 10.9px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.icons-love-full {
+  color: var(--secondary-color);
+  font-size: 1.85em;
+  border: none;
+  margin-left: 0.4em;
+  background-color: transparent;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 78%;
+  background-color: rgba(226, 255, 196, 0.037);
+  border: 0.5px solid rgba(255, 166, 0, 0.09);
+  border-radius: 3px 10px 3px 10px;
+  box-shadow: 5px 0px 5px rgba(0, 90, 0, 0.1);
+}
+
+.dropdown-link {
+  padding: 5px 3px 5px 3px;
+  font-weight: 200;
+  background-color: var(--light-color);
+}
+
+.dropdown-link:last-of-type {
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-size: 110%;
+}
+
+.dropdown-link:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.arrow-down {
+  font-weight: 100;
+  background: var(--secondary-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: smaller;
+  margin-left: 5px;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: var(--dark-color);
+  position: fixed;
+  z-index: 100;
+}
+
+.logo__image {
+  width: 160px;
+  height: 50px;
+  margin-left: 2.6%;
+  margin-right: 7.3px;
+  margin-top: 0.8%;
+  margin-bottom: 0;
+  filter: hue-rotate(-80deg);
+}
+
+.searchbar
+{
+  margin-top: 8.3%;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  margin-left: -10.2%;
+  
+}
+
+.close-search
+{
+  background-color: transparent;
+  border: none;
+  margin-top: -2.8%;
+  margin-left: -9%;
+  cursor: pointer;
+}
+
+.search-bar
+{
+  height: 2.3em;
+  width: 19em;
+  border: 2px solid olive;
+  border-radius: 0.6em;
+  padding-left: 0.4em;
+  
+}
+

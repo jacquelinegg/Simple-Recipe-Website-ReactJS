@@ -1,0 +1,37 @@
+[
+    {
+        "category": "Dinners",
+        "title": "Chop Suey",
+        "description": "Chop suey is a colorful and flavorful Chinese American classic that can be prepared with ingredients you already have lying around. It’s a quick and easy stir fry perfect for a weeknight dinner.",
+        "photo": "img/Simply-Recipes-Chop-Suey-LEAD-01-bf724045c4c5454faa0b1fe02ef77391.webp",
+        "preparation": ""
+    },
+    {
+        "category": "Voices",
+        "title": "Microwave Red Curry Poached Salmon",
+        "description": "",
+        "photo": "img/-Recipes-Microwave-Coconut-Salmon-LEAD-05-2-771aa0a074f741a7a7e5d5d6419d2c21.webp",
+        "preparation": "24 mins"
+    },
+    {
+        "category": "Comfort Food",
+        "title": "Vegetarian Biscuits and Gravy",
+        "description": "",
+        "photo": "img/Temp-filename_-11-0f9669c9e8ec45b4972de0743cfb7d82.webp",
+        "preparation": "30 mins"
+    },
+    {
+        "category": "Dinners",
+        "title": "Buffalo Chicken Tacos Are a No-Stress, 20-Minute Dinner",
+        "description": "",
+        "photo": "img/Simply-Recipes-Buffalo-Chicken-Tacos-LEAD-3-82f888e8a7364048bbdb27ba367919d9.webp",
+        "preparation": "17 mins"
+    },
+    {
+        "category": "Dinners",
+        "title": "Creamy Cavatappi",
+        "description": "",
+        "photo": "img/Simply-Recipes-Creamy-Cavatappi-LEAD-22-19f4e9abbd0f46759054c7ee06ba7d80.webp",
+        "preparation": "22 mins"
+    }
+]
